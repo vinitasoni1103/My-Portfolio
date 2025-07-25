@@ -1,0 +1,55 @@
+import { default as project1Img, default as project2Img } from '../assets/skills/js.png';
+import '../styles/projects.css';
+
+
+const projectData = [
+  {
+    title: 'Amazon Clone',
+    description: 'A full-stack MERN e-commerce app with user auth, cart, admin panel, and payment integration.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+    image: project1Img,
+    live: '',
+    code: 'https://github.com/vinitasoni1103/AmazonCloneMERN',
+  },
+  {
+    title: 'Swarajya Seva Sansthan',
+    // description: '',
+    tech: ['React', 'Firebase', 'Bootstrap'],
+    image: project2Img,
+    live: '',
+    code: 'https://github.com/your-repo',
+  },
+  // Add more projects as needed
+];
+
+const Projects = () => {
+  return (
+    <section className="projects-section" id="projects">
+      <h2 className="projects-heading">Here’s What I’ve Built...</h2>
+      <div className="projects-container">
+        {projectData.map((project, index) => (
+          <div className="project-card" key={index}>
+            <div className="project-image">
+              <img src={project.image} alt={project.title} />
+            </div>
+            <div className="project-details">
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              <div className="tech-used">
+                {project.tech.map((tech, i) => (
+                  <span key={i} className="tech-badge">{tech}</span>
+                ))}
+              </div>
+              <div className="project-buttons">
+                <a href={project.live} target="_blank" rel="noreferrer">Live Preview</a>
+                <a href={project.code} target="_blank" rel="noreferrer">GitHub Code</a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

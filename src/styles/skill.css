@@ -1,0 +1,475 @@
+/* .skills-section {
+  padding: 4rem 2rem;
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.skills-box {
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #1c1c1c;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+
+.skills-title:hover {
+  color: #00f7ff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.skill-item {
+  background: #222;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #333;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.skill-item:hover {
+  background: #333;
+} */
+ 
+
+
+/* 2nd Design */
+/* .skills-section {
+  padding: 4rem 2rem;
+  background-color: #0c0f15;
+  color: #fff;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
+  color: #4da6ff;
+}
+
+
+.skill-tree-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.tree-root-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree-root {
+  background-color: #4da6ff;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.5);
+}
+
+.vertical-line-root {
+  width: 3px;
+  height: 40px;
+  background: #4da6ff;
+  margin-bottom: 1rem;
+}
+
+.horizontal-line {
+  width: 70%;
+  height: 2px;
+  background-color: #4da6ff;
+  position: relative;
+}
+
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.connector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connector-line {
+  width: 2px;
+  height: 30px;
+  background-color: #4da6ff;
+  margin-bottom: 0.5rem;
+}
+
+.skill-box {
+  background: #1a1a1a;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.1);
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.toggle-btn {
+  background-color: #4da6ff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0077cc;
+}
+
+.grid-view .grid-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(77, 166, 255, 0.3);
+}
+
+.grid-title {
+  font-size: 1.5rem;
+  color: #4da6ff;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+
+.grid-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-box {
+  padding: 0.7rem 1.2rem;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.08);
+} */
+
+/* Responsive tweaks */
+/* @media (max-width: 768px) {
+  .branches {
+    gap: 1rem;
+  }
+
+  .skill-box {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+} */
+
+
+/* 3rd Design */
+.skills-section {
+  padding: 4rem 2rem;
+  background-color: #0d1117;
+  color: #fff;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
+  color: #4da6ff;
+}
+
+
+.skill-tree-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.tree-root-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tree-root {
+  background-color: #4da6ff;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.5);
+}
+
+.vertical-line-root {
+  width: 3px;
+  height: 40px;
+  background: #4da6ff;
+  margin-bottom: 1rem;
+}
+
+.horizontal-line {
+  width: 70%;
+  height: 2px;
+  background-color: #4da6ff;
+  position: relative;
+}
+
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.connector-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connector-line {
+  width: 2px;
+  height: 30px;
+  background-color: #4da6ff;
+  margin-bottom: 0.5rem;
+}
+
+.skill-box {
+  background: #1a1a1a;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.1);
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.toggle-btn {
+  background-color: #4da6ff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Fira Code', monospace;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0077cc;
+}
+
+.grid-view .grid-card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(77, 166, 255, 0.3);
+}
+
+.grid-title {
+  font-size: 1.5rem;
+  color: #4da6ff;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+
+.grid-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-box {
+  padding: 0.7rem 1.2rem;
+  background: #222;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.08);
+}
+
+.floating-ball {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: 0 10px 25px rgba(88, 166, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  animation: float 4s ease-in-out infinite;
+  flex-direction: column;
+  padding: 0.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+.skill-label {
+  margin-top: 0.4rem;
+  font-size: 0.75rem;
+  color: #000000;
+  text-align: center;
+}
+
+@keyframes float {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(3deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .branches {
+    gap: 1rem;
+  }
+
+  .skill-box {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  /* For logo-skill-box in mobile grid */
+.logo-skill-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.4rem 1rem;
+  background: #222;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(77, 166, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.logo-skill-box:hover {
+  transform: scale(1.05);
+}
+
+.skill-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+}
