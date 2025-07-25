@@ -27,7 +27,7 @@ This portfolio blends modern frontend development with thoughtful design, reflec
 
 ## 📂 How to Run Locally
 ```bash
-git clone https://github.com/yourusername/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/vinitasonii103/My-Portfolio.git
+cd my-portfolio
 npm install
 npm start
