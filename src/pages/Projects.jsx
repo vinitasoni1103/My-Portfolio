@@ -4,14 +4,6 @@ import '../styles/projects.css';
 
 const projectData = [
   {
-    title: 'Amazon Clone',
-    description: 'A full-stack MERN e-commerce app with user auth, cart, admin panel, and payment integration.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-    image: project1Img,
-    live: '',
-    code: 'https://github.com/vinitasoni1103/AmazonCloneMERN',
-  },
-  {
     title: 'Swarajya Seva Sansthan',
     description: 'A community-driven website built for a rural development initiative that promotes eco-friendly, handmade products crafted by local artisans and children. The platform highlights their creativity, showcases event activities, and integrates their Instagram presence.| Currently in development – working on integrating all website pages and features.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Bootstrap'],
@@ -19,7 +11,14 @@ const projectData = [
     live: 'https://swarajyasevasansthan.netlify.app/',
     code: 'https://github.com/vinitasoni1103/SSS-website',
   },
-  // more projects as needed
+  {
+    title: 'Amazon Clone',
+    description: 'A full-stack MERN e-commerce app with user auth, cart, admin panel, and payment integration.',
+    tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+    image: project1Img,
+    live: '',
+    code: 'https://github.com/vinitasoni1103/AmazonCloneMERN',
+  },
 ];
 
 const Projects = () => {
