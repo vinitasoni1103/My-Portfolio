@@ -202,7 +202,7 @@ const About = () => {
                 </p>
                 <div className="about-buttons">
                   <a href="/contact" className="btn btn-primary">Let’s Talk</a>
-                  <a href="/assets/files/MY_RESUME.pdf" className="btn btn-outline" download>Here's my CV</a>
+                  <a href="/assets/files/VinitaSoni_Resume.pdf" className="btn btn-outline" download>Here's my CV</a>
                 </div>
               </div>
             </div>

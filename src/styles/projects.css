@@ -38,12 +38,25 @@
   min-width: 300px;
   max-width: 350px;
   overflow: hidden;
+  position: relative;
+  border-right: 2px solid #4da6ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image img {
-  width: 80%;
+  width: 90%;
   height: 80%;
-  object-fit: cover;
+  object-fit:fill;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  border-radius: 12px;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+  filter: brightness(1.1) contrast(1.1);
+  box-shadow: 0 0 12px rgba(77, 166, 255, 0.3);
 }
 
 .project-details {

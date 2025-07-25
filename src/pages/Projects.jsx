@@ -1,6 +1,6 @@
-import { default as project1Img, default as project2Img } from '../assets/skills/js.png';
+import project2Img from '../assets/project/sss.png';
+import project1Img from '../assets/skills/js.png';
 import '../styles/projects.css';
-
 
 const projectData = [
   {
@@ -14,12 +14,12 @@ const projectData = [
   {
     title: 'Swarajya Seva Sansthan',
     // description: '',
-    tech: ['React', 'Firebase', 'Bootstrap'],
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Bootstrap'],
     image: project2Img,
-    live: '',
-    code: 'https://github.com/your-repo',
+    live: 'https://swarajyasevasansthan.netlify.app/',
+    code: 'https://github.com/vinitasoni1103/SSS-website',
   },
-  // Add more projects as needed
+  // more projects as needed
 ];
 
 const Projects = () => {
