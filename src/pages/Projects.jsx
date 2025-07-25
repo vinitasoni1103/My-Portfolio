@@ -1,5 +1,6 @@
-import project2Img from '../assets/project/sss.png';
-import project1Img from '../assets/skills/js.png';
+import project3Img from '../assets/project/amazon.png';
+import project1Img from '../assets/project/sss.png';
+import project2Img from '../assets/project/stackgame.png';
 import '../styles/projects.css';
 
 const projectData = [
@@ -7,15 +8,23 @@ const projectData = [
     title: 'Swarajya Seva Sansthan',
     description: 'A community-driven website built for a rural development initiative that promotes eco-friendly, handmade products crafted by local artisans and children. The platform highlights their creativity, showcases event activities, and integrates their Instagram presence.| Currently in development – working on integrating all website pages and features.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Bootstrap'],
-    image: project2Img,
+    image: project1Img,
     live: 'https://swarajyasevasansthan.netlify.app/',
     code: 'https://github.com/vinitasoni1103/SSS-website',
+  },
+  {
+    title: 'Stack Game',
+    description: 'A simple but addictive browser-based 3D Stack Game. ',
+    tech: ['HTML', 'JavaScript', 'Three.js'],
+    image: project2Img,
+    live: 'https://stack2game.netlify.app/',
+    code: 'https://github.com/vinitasoni1103/Stack_Game',
   },
   {
     title: 'Amazon Clone',
     description: 'A full-stack MERN e-commerce app with user auth, cart, admin panel, and payment integration.',
     tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-    image: project1Img,
+    image: project3Img,
     live: '',
     code: 'https://github.com/vinitasoni1103/AmazonCloneMERN',
   },
