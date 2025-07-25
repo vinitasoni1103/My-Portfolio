@@ -248,8 +248,8 @@
 }
 
 .tech-card {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-color: #161b22;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(88, 166, 255, 0.2);

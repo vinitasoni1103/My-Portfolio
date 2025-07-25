@@ -28,7 +28,7 @@ const Hero = () => {
   }, []);
 
   const desktopHeights = [280, 530, 370, 680, 500, 330];
-  const mobileHeights = [280, 480, 360, 590, 460, 310];
+  const mobileHeights = [240, 400, 300, 480, 370, 270];
 
   return (
     <section className="hero-section">

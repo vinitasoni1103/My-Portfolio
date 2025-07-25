@@ -435,7 +435,7 @@
 }
 
 
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 768px) {
   .branches {
     gap: 1rem;
