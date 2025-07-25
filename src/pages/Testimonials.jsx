@@ -7,9 +7,10 @@ const testimonials = [
   {
     name: 'Aryan Sharma',
     role: 'Fellow Classmate',
-    quote: 'An outstanding developer with creativity and discipline.',
-    short: 'Outstanding Developer',
+    quote: 'Vinita’s ability to break down complex problems and bring structure to chaos truly stood out during our collaboration.',
+    short: 'Structured Thinker',
     image: he1,
+    linkedin: 'https://www.linkedin.com/in/aryanastic/'
   },
   {
     name: 'Deepesh Verma',
@@ -17,27 +18,31 @@ const testimonials = [
     quote: 'Blends tradition with tech beautifully.',
     short: 'Tech + Tradition',
     image: he,
+    linkedin: 'https://www.linkedin.com/in/deepeshverma12/'
   },
   {
     name: 'Shruti Mishra',
     role: 'Fellow Classmate',
-    quote: 'A promising learner with sharp instincts.',
-    short: 'Promising Learner',
+    quote: 'She’s intuitive, observant, and always brings a thoughtful perspective. A fast learner who uplifts any team.',
+    short: 'Sharp & Insightful',
     image: she,
+    linkedin: 'https://www.linkedin.com/in/shrutimishra1102/'
   },
   {
     name: 'J Pranav',
     role: 'Collaborator',
-    quote: 'Her energy and passion inspire everyone around.',
-    short: 'Inspiring!',
+    quote: 'Vinita brings contagious energy and a can-do attitude. It’s a pleasure collaborating with someone so dedicated.',
+    short: 'High-Energy Collaborator',
     image: he,
+    linkedin: 'https://www.linkedin.com/in/pranav-jandhyala-12b943251/'
   },
   {
-    name: 'Deepak Rao',
-    role: 'Senior',
-    quote: 'Balances performance and precision beautifully.',
-    short: 'Balanced & Precise',
+    name: 'Gaurav Laguri',
+    role: 'Fellow Classmate',
+    quote: 'Her discipline, attention to detail, and ability to execute under pressure are commendable. A professional through and through.',
+    short: 'Disciplined & Reliable',
     image: he,
+    // linkedin: 'https://www.linkedin.com/in/shrutimishra1102/'
   },
 ];
 
@@ -74,7 +79,19 @@ const Testimonials = () => {
 
         {activeIndex !== null && (
           <div className="expanded-testimonial">
-            <h3>{testimonials[activeIndex].name}</h3>
+            <h3>
+              {testimonials[activeIndex].name}
+              {testimonials[activeIndex].linkedin && (
+                <a 
+                  href={testimonials[activeIndex].linkedin} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="linkedin-link"
+              >
+                ↗ LinkedIn
+              </a>
+            )}
+          </h3>
             <h4>{testimonials[activeIndex].role}</h4>
             <p>{testimonials[activeIndex].quote}</p>
             <button onClick={() => setActiveIndex(null)}>Close</button>
