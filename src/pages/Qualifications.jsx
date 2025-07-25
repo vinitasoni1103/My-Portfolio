@@ -22,7 +22,7 @@ const qualifications = [
 const Qualifications = () => {
   return (
     <section className="qualification-section" id="qualifications">
-      <h2 className="section-title">My Academic Journey</h2>
+      <h2 className="section-title">My Academic <span>Journey...</span></h2>
 
       <div className="timeline">
         {qualifications.map((item, i) => (

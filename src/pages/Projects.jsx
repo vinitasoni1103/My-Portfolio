@@ -25,7 +25,7 @@ const projectData = [
 const Projects = () => {
   return (
     <section className="projects-section" id="projects">
-      <h2 className="projects-heading">Here’s What I’ve Built...</h2>
+      <h2 className="projects-heading">Here’s What <span> I've Built...</span></h2>
       <div className="projects-container">
         {projectData.map((project, index) => (
           <div className="project-card" key={index}>

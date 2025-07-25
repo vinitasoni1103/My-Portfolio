@@ -259,7 +259,7 @@ const Skills = () => {
 
   return (
     <section className="skills-section" id="skills">
-      <h2 className="skills-heading">My Tech Roots</h2>
+      <h2 className="skills-heading">My Tech <span>Roots...</span></h2>
       <div className={`skills-container ${isMobile ? 'grid-view' : 'tree-view'}`}>
         {skillData.map((data, index) =>
           isMobile ? (
