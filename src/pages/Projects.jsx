@@ -13,7 +13,7 @@ const projectData = [
   },
   {
     title: 'Swarajya Seva Sansthan',
-    // description: '',
+    description: 'A community-driven website built for a rural development initiative that promotes eco-friendly, handmade products crafted by local artisans and children. The platform highlights their creativity, showcases event activities, and integrates their Instagram presence.| Currently in development – working on integrating all website pages and features.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Bootstrap'],
     image: project2Img,
     live: 'https://swarajyasevasansthan.netlify.app/',
