@@ -171,9 +171,12 @@ import postman from '../assets/skills/postman.webp';
 import python from '../assets/skills/python.png';
 import react from '../assets/skills/react.png';
 import rn from '../assets/skills/reactnative.png';
-import { default as agile, default as bug, default as manual, default as sdlc } from '../assets/skills/sdlc.jpg.cr.download';
 import sql from '../assets/skills/sql.png';
 import vscode from '../assets/skills/vscode.png';
+// import agile from '../assets/skills/sdlc.jpg.cr.download';
+// import bug from '../assets/skills/sdlc.jpg.cr.download';
+// import manual from '../assets/skills/sdlc.jpg.cr.download';
+import sdlc from '../assets/skills/sdlc.jpg.cr.download';
 
 const FloatingLogoBall = ({ logo, name }) => {
   return (
