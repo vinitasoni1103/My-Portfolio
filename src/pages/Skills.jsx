@@ -173,7 +173,7 @@ import react from '../assets/skills/react.png';
 import rn from '../assets/skills/reactnative.png';
 import { default as agile, default as bug, default as manual, default as sdlc } from '../assets/skills/sdlc.jpg.cr.download';
 import sql from '../assets/skills/sql.png';
-import vscode from '../assets/skills/vscode.webp';
+import vscode from '../assets/skills/vscode.png';
 
 const FloatingLogoBall = ({ logo, name }) => {
   return (
