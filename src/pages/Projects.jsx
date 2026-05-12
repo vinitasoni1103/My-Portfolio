@@ -1,6 +1,7 @@
-import project3Img from '../assets/project/amazon.png';
+import project4Img from '../assets/project/amazon.png';
+import project2Img from '../assets/project/recipefinder.png';
 import project1Img from '../assets/project/sss.png';
-import project2Img from '../assets/project/stackgame.png';
+import project3Img from '../assets/project/stackgame.png';
 import '../styles/projects.css';
 
 const projectData = [
@@ -24,7 +25,7 @@ const projectData = [
     title: 'Stack Game',
     description: 'A simple but addictive browser-based 3D Stack Game. ',
     tech: ['HTML', 'JavaScript', 'Three.js'],
-    image: project2Img,
+    image: project3Img,
     live: 'https://stack2game.netlify.app/',
     code: 'https://github.com/vinitasoni1103/Stack_Game',
   },
@@ -32,7 +33,7 @@ const projectData = [
     title: 'Amazon Clone',
     description: 'A full-stack MERN e-commerce app with user auth, cart, admin panel, and payment integration.',
     tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-    image: project3Img,
+    image: project4Img,
     live: '',
     code: 'https://github.com/vinitasoni1103/AmazonCloneMERN',
   },
