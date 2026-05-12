@@ -158,19 +158,15 @@ import '../styles/skill.css';
 // logo imports
 import bootstrap from '../assets/skills/bootstrap.png';
 import css from '../assets/skills/css.png';
-import electron from '../assets/skills/electron1.png';
 import express from '../assets/skills/express.png';
-import firebase from '../assets/skills/firebase.png';
 import git from '../assets/skills/git.png';
 import github from '../assets/skills/github.png';
-import heroku from '../assets/skills/heroku.png';
 import html from '../assets/skills/html.png';
 import js from '../assets/skills/js.png';
 import mongo from '../assets/skills/mongo.png';
 import mysql from '../assets/skills/mysql.png';
 import netlify from '../assets/skills/netlify.png';
 import node from '../assets/skills/node.png';
-import postgres from '../assets/skills/postgresql.png';
 import python from '../assets/skills/python.png';
 import react from '../assets/skills/react.png';
 import rn from '../assets/skills/reactnative.png';
@@ -205,7 +201,6 @@ const skillData = [
     skills: [
       { name: 'React', logo: react },
       { name: 'React Native', logo: rn },
-      { name: 'Electron', logo: electron },
       { name: 'Bootstrap', logo: bootstrap }
     ]
   },
@@ -217,21 +212,28 @@ const skillData = [
     ]
   },
   {
+    title: 'Testing & Methodologies',
+    skills: [
+      { name: 'SDLC & STLC', logo: sdlc },
+      { name: 'Manual Testing', logo: manual },
+      { name: 'Bug Tracking', logo: bug },
+      { name: 'Agile/Scrum', logo: agile }
+    ]
+  },
+  {
     title: 'Databases',
     skills: [
       { name: 'MongoDB', logo: mongo },
       { name: 'MySQL', logo: mysql },
-      { name: 'PostgreSQL', logo: postgres },
-      { name: 'Firebase', logo: firebase }
     ]
   },
   {
     title: 'Tools & Platforms',
     skills: [
       { name: 'VS Code', logo: vscode },
+      { name: 'Postman', logo: postman },
       { name: 'Git', logo: git },
       { name: 'GitHub', logo: github },
-      { name: 'Heroku', logo: heroku },
       { name: 'Netlify', logo: netlify }
     ]
   }
