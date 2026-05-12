@@ -167,11 +167,13 @@ import mongo from '../assets/skills/mongo.png';
 import mysql from '../assets/skills/mysql.png';
 import netlify from '../assets/skills/netlify.png';
 import node from '../assets/skills/node.png';
+import postman from '../assets/skills/postman.webp';
 import python from '../assets/skills/python.png';
 import react from '../assets/skills/react.png';
 import rn from '../assets/skills/reactnative.png';
+import { default as agile, default as bug, default as manual, default as sdlc } from '../assets/skills/sdlc.jpg.cr.download';
 import sql from '../assets/skills/sql.png';
-import vscode from '../assets/skills/vscode.png';
+import vscode from '../assets/skills/vscode.webp';
 
 const FloatingLogoBall = ({ logo, name }) => {
   return (
