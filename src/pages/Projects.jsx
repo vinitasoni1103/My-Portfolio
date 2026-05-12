@@ -13,6 +13,14 @@ const projectData = [
     code: 'https://github.com/vinitasoni1103/SSS-website',
   },
   {
+    title: 'Recipe Finder',
+    description: 'A lightweight React app that helps User decide what to cook based on what’s on hand, mood, and time.',
+    tech: ['HTML', 'React.js', 'CSS', 'API: TheMealDB'],
+    image: project2Img,
+    live: 'https://recipeeideas.netlify.app/',
+    code: 'https://github.com/vinitasoni1103/Recipe-Ideas',
+  },
+  {
     title: 'Stack Game',
     description: 'A simple but addictive browser-based 3D Stack Game. ',
     tech: ['HTML', 'JavaScript', 'Three.js'],
